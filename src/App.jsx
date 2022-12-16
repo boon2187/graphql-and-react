@@ -24,6 +24,7 @@ function App() {
   return (
     <div className="App">
       <h1>GraphQLとReactとヘッドレスCMS</h1>
+      <h2>Viteは環境変数の扱いがいつもと違う…</h2>
       <div className="dogsContainer">
         {data.penguins.map((penguin) => (
           <div key={penguin.id}>
